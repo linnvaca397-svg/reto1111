@@ -1,0 +1,22 @@
+<div class="calculadora">
+  <h2>Calculadora básica</h2>
+
+  <label>Primer número:</label>
+  <input type="number"
+         [(ngModel)]="numero1"
+         placeholder="Ingrese un número">
+
+  <label>Segundo número:</label>
+  <input type="number"
+         [(ngModel)]="numero2"
+         placeholder="Ingrese un número">
+
+  <br><br>
+
+  <button (click)="sumar()">Sumar</button>
+  <button (click)="restar()">Restar</button>
+
+  <h3>Resultado: {{ resultado }}</h3>
+
+  <p>{{ mensaje }}</p>
+</div>

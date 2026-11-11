@@ -1,0 +1,10 @@
+<h2>Productos</h2>
+
+@for (producto of productos; track producto.nombre) {
+  <p>
+    {{ producto.nombre }} - {{ producto.categoria }} - ${{ producto.precio }}
+    @if (producto.precio > 100000) {
+      <strong>Producto costoso</strong>
+    }
+  </p>
+}

@@ -1,0 +1,10 @@
+.circulo {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+button {
+  margin-right: 5px;
+}

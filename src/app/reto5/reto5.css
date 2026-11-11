@@ -1,0 +1,23 @@
+form {
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 4px;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,9 @@
+
+<h2>Semáforo</h2>
+
+<button type="button" (click)="cambiarColor('red')">Rojo</button>
+<button type="button" (click)="cambiarColor('yellow')">Amarillo</button>
+<button type="button" (click)="cambiarColor('green')">Verde</button>
+
+<div class="circulo" [style.backgroundColor]="color"></div>
+<p>{{ mensaje }}</p>
